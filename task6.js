@@ -20,4 +20,8 @@ for(let i=1; i<=max; i++){
   else if (i%7===0) console.log("Woof");
   else console.log(i);
   array.push(i);
+  
+}
+for(let i=0; i<max; i++){
+  console.log(array[i]);
 }
